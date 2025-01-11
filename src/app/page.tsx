@@ -1,13 +1,5 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu";
 
 export default function Home() {
   return (
@@ -32,50 +24,12 @@ export default function Home() {
           className="sticky flex my-3 px-2"
           src="/logo.png"
           alt="logo"
-          width={185}
-          height={35}
+          width={100}
+          height={20}
         ></Image>
         <div className="grow"></div>
         <div className="gap-5 sticky flex">
-          <NavigationMenu>
-            <NavigationMenuList>
-              <NavigationMenuItem>
-                <NavigationMenuTrigger>Home</NavigationMenuTrigger>
-                <NavigationMenuContent>
-                  <NavigationMenuLink>Home Page</NavigationMenuLink>
-                </NavigationMenuContent>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <NavigationMenuTrigger>Company</NavigationMenuTrigger>
-                <NavigationMenuContent>
-                  <NavigationMenuLink>Home Page</NavigationMenuLink>
-                </NavigationMenuContent>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <NavigationMenuTrigger>Service</NavigationMenuTrigger>
-                <NavigationMenuContent>
-                  <NavigationMenuLink>Home Page</NavigationMenuLink>
-                </NavigationMenuContent>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <NavigationMenuTrigger>Gallery</NavigationMenuTrigger>
-                <NavigationMenuContent>
-                  <NavigationMenuLink>Home Page</NavigationMenuLink>
-                </NavigationMenuContent>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <NavigationMenuTrigger>Blog</NavigationMenuTrigger>
-                <NavigationMenuContent>
-                  <NavigationMenuLink>Home Page</NavigationMenuLink>
-                </NavigationMenuContent>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <NavigationMenuLink className="hover:text-green-600">
-                  Contact
-                </NavigationMenuLink>
-              </NavigationMenuItem>
-            </NavigationMenuList>
-          </NavigationMenu>
+        <button className="text-black hover:text-green-600">Paul</button>
           <Button className="bg-green-600 px-7 py-7 text-xl">
             Request Now
           </Button>
