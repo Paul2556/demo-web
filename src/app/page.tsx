@@ -1,7 +1,4 @@
 import { Button } from "@/components/ui/button";
-export function ButtonDemo() {
-  return <Button>Button</Button>;
-}
 import Image from "next/image";
 import {
   NavigationMenu,
