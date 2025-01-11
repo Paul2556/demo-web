@@ -11,7 +11,6 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
-import { relative } from "path";
 
 export default function Home() {
   return (
